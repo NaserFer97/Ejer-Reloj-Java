@@ -89,25 +89,16 @@ public class EjercicioReloj {
         System.out.println("Ingrese cantidad de segundos");
         segundo=objeto.nextInt();
 
-        reloj EjercicioReloj =new reloj(segundo);
+        EjercicioReloj EjercicioReloj =new EjercicioReloj(segundo);
         for (int x=0; x < 10; x++){
             EjercicioReloj.tick();
-            System.out.println(EjercicioReloj.toStringg());
+            System.out.println(EjercicioReloj.toString());
         }
         System.out.println("Ingrese cantidad de segundos");
         segundos2=objeto.nextInt();
         Ejercicio01.Dia3.EjercicioReloj reloj2 = new EjercicioReloj(segundos2);
-        System.out.println(EjercicioReloj.toStringg());
+        System.out.println(EjercicioReloj.toString());
     }
-
-
-
-
-
-
-
-
-
     }
 
 
